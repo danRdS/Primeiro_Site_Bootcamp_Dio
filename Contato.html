@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-Company - Contato</title>
+    <link rel="stylesheet" href="style_Sobre.css">
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20220823/original/pngtree-m-company-logo-png-image_8474066.png">
+    <style>
+        #row {
+            margin: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        label {
+            width: 100px;
+            text-align: left;
+            padding-right: 5px;
+        }
+        fieldset {
+            margin: 25px 0;
+            border-radius: 10px;
+            border-color: cadetblue;
+        }
+        textarea {
+            border-color: aqua;
+            border-style: groove;
+        }
+        .iframe {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <p><strong>Menu</strong></p>
+                <li><a href="index.html" title="Voltar para página inicial">Home</a></li>
+                <li><a href="Sobre.html" title="Sobre a Clínica">Sobre a clínica</a></li>
+                <li><a href="Horarios.html" title="Confira nossos horários">Horário de atendimento</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc83-vRmuvDLEX2sqbxTG5KkghM8P1BNP6WTmm85Tb7NSyVRz_jSmpr7myt29nJyoES14&usqp=CAU" alt="logo">
+            </div>
+            
+            <div class="content">
+                <h1>Contato</h1>
+                <p for=""><strong>Fale conosco:</strong><br>
+                    <span>
+                        (11) 5221-2002 | 
+                        <img id="logo_whatsapp" src="https://i.pinimg.com/originals/e7/d9/c0/e7d9c0aa66052e90e970ee84e1d1a55f.png" title="whatsapp" alt="logotipo do whatsapp">
+                        (11) 99999-9999
+                    </span>
+                </p>
+                <p for=""><strong>Nosso endereço:</strong><br>
+                    <span>
+                        Av. Jabaquara, 1358 - Mirandópolis São Paulo - SP
+                    </span>
+                </p>
+                <div class="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.668574356292!2d-46.638807204658!3d-23.61621628989424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a4e2be6cf2b%3A0xc3b8c6edba6599e7!2sAv.%20Jabaquara%2C%201358%20-%20Mirand%C3%B3polis%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004046-200!5e0!3m2!1spt-BR!2sbr!4v1666227911305!5m2!1spt-BR!2sbr" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <form name="form">
+                    <fieldset>
+                        <legend><strong>Dados Pessoais</strong></legend>
+                        <div id="row">
+                            <label for="" title="Informe seu nome completo">Nome: <input type="text" name="nome" required></label><br>
+                            <label for="" title="Informe seu email">Email: <input type="email" name="email" placeholder="example@email.com" required></label><br>
+                        </div>
+                        <div id="row">
+                            <label for="" title="Informe o assunto">Assunto: <input type="text" name="assunto" required></label><br>                            
+                        </div>
+                    </fieldset>
+                    <h2>Nos envie uma Mensagem:</h2>
+                    <textarea name="text" id="" cols="45" rows="12" title="Digite sua mensagem neste campo" placeholder="Digite aqui sua mensagem..." required></textarea><br><br>
+                    <button type="reset" title="Limpar campos">Limpar</button>
+                    <button type="submit" title="Enviar suas informações">Enviar</button>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <p>Telefone: (11) 99999-9999</p>
+                <p>Email: clinica@email.com</p>
+                <p>Endereço: Av. Jabaquara, 1358 - Mirandópolis São Paulo - SP</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
